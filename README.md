@@ -1,9 +1,9 @@
 # DA6401 — Assignment 1: Multi‑Layer Perceptron
 
-**Aritra Dasgupta**
-Roll No: **MA25M005**
-M.Tech. Industrial Mathematics and Scientific Computing
-IIT Madras
+#### **Aritra Dasgupta**
+#### Roll No: **MA25M005**
+#### M.Tech. Industrial Mathematics and Scientific Computing
+
 
 
 ## Links
@@ -131,9 +131,9 @@ wandb agent <sweep_id>
 
 ## Experiments (W&B)
 
-All experiments required in the assignment were implemented and logged using **Weights & Biases**.
+All experiments required in Section 2 of Assignment 1 were implemented and logged using **Weights & Biases**.
 
-Experiments performed:
+Experiments performed are the following:
 
 - Data exploration
 - Hyperparameter sweeps
@@ -153,12 +153,12 @@ Experiments performed:
 ### MNIST Best Configuration
 
 ```
-Architecture : 2 Hidden Layers (128 neurons each)
+Architecture : 3 Hidden Layers (128 neurons each)
 Activation   : ReLU
-Optimizer    : RMSProp
+Optimizer    : Adam
 Weight Init  : Xavier
 Loss         : Cross‑Entropy
-Validation Accuracy ≈ 97.63%
+Validation Accuracy ≈ 97.70%
 ```
 
 ### Fashion‑MNIST Best Configuration
